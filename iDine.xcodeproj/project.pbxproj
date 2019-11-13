@@ -22,6 +22,8 @@
 		A41995E8237C04DC009E79F4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41995E7237C04DC009E79F4 /* ItemRow.swift */; };
 		A41995EA237C210F009E79F4 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41995E9237C210F009E79F4 /* ItemDetail.swift */; };
 		A41995EC237C3A79009E79F4 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41995EB237C3A79009E79F4 /* OrderView.swift */; };
+		A41995EE237C41E9009E79F4 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41995ED237C41E9009E79F4 /* AppView.swift */; };
+		A41995F0237C49FD009E79F4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41995EF237C49FD009E79F4 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		A41995E7237C04DC009E79F4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		A41995E9237C210F009E79F4 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		A41995EB237C3A79009E79F4 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		A41995ED237C41E9009E79F4 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		A41995EF237C49FD009E79F4 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				A41995E7237C04DC009E79F4 /* ItemRow.swift */,
 				A41995E9237C210F009E79F4 /* ItemDetail.swift */,
 				A41995EB237C3A79009E79F4 /* OrderView.swift */,
+				A41995EF237C49FD009E79F4 /* CheckoutView.swift */,
+				A41995ED237C41E9009E79F4 /* AppView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4017F48237BE3E8007E134C /* Order.swift in Sources */,
+				A41995F0237C49FD009E79F4 /* CheckoutView.swift in Sources */,
 				A4017F14237BE297007E134C /* AppDelegate.swift in Sources */,
 				A4017F16237BE297007E134C /* SceneDelegate.swift in Sources */,
 				A41995E8237C04DC009E79F4 /* ItemRow.swift in Sources */,
@@ -297,6 +304,7 @@
 				A41995EA237C210F009E79F4 /* ItemDetail.swift in Sources */,
 				A41995EC237C3A79009E79F4 /* OrderView.swift in Sources */,
 				A4017F44237BE3D5007E134C /* Helper.swift in Sources */,
+				A41995EE237C41E9009E79F4 /* AppView.swift in Sources */,
 				A4017F47237BE3E8007E134C /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
